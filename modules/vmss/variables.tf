@@ -1,0 +1,12 @@
+variable "server_location" {}
+variable "rg_name" {}
+variable "apps_set_nsg" {}
+variable "apps_subnet" {}
+variable "lbnatpool" {}
+variable "bpepool" {}
+variable "admin_user" {}
+variable "admin_password" {}
+variable "vm_config" {}
+variable "packer_image_name" {}
+variable "pub_key" {}
+variable "packer_resource_group_name" {}
