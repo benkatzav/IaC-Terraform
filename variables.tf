@@ -58,6 +58,7 @@ variable "packer_image_name" {
   default     = "IMG defined in tfvars file"
 }
 
+# This is an optional variable in case you would like to use SSH key in the future
 variable "pub_key" {
   description = "Define your public key"
   type        = string
